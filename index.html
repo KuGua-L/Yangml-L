@@ -1,24 +1,12 @@
-<HTML>
-<HEAD>
-<TITLE>YangML-L</TITLE>
-</HEAD>
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-function chkacc(){
-	if(document.getElementById("tbxuid1").value==''){
-		alert('姓名不能为空');
-	}
-	if(document.getElementById("tbxpwd1").value==''){
-		alert('留言内容不能为空。');
-	}
-}
-//-->
-</SCRIPT>
-<BODY>
-<FORM METHOD=POST ACTION="" name="frm1">
-姓名：<INPUT TYPE="text" NAME="tbxuid" id="tbxuid1">
-留言内容：<INPUT TYPE="text" NAME="tbxpwd" id="tbxpwd1">
-<INPUT TYPE="button" value="提交" onclick="chkacc();">
-</FORM>
-</BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns= http://www.skyviewtech.com.cn > 
+	<head> 
+		<title></title> 
+		<meta http-equiv="content-type" content="text/html;charset=gb2312"> 
+		<script type="text/javascript" src="js/update8.js"></script> 
+		<!--把下面代码加到<head>与</head>之间--> 
+		<style type="text/css"> 
+			#fader{position:relative;overflow:hidden;height:300px;width:500px;} 
+			#fader li{position:absolute;left:0;top:0;} ul,li{list-style:none;margin:0;padding:0;} 
+			img{display:block;} .fader-nav{display:inline-block;margin-right:8px;color:#fff;padding:2px 6px;background:#333;border:1px solid #fff;font-family:Tahoma;font-weight:bold;font-size:12px;cursor:pointer;} .fader-cur-nav{display:inline-block;margin-right:8px;color:#fff;padding:2px 6px;background:#ff7a00;border:1px solid #fff;font-family:Tahoma;font-weight:bold;font-size:12px;cursor:pointer;} </style> </head> <body> <!--把下面代码加到<body>与</body>之间--> <div id="fader"> <ul> <li><img src="js_img/8-24/images/01.jpg" alt="红叶传情"></li> <li><img src="js_img/8-24/images/02.jpg" alt="野花绽放"></li> <li><img src="js_img/8-24/images/03.jpg" alt="往事如茶"></li> <li><img src="js_img/8-24/images/04.jpg" alt="油菜花开"></li> <li><img src="js_img/8-24/images/05.jpg" alt="玫瑰情思"></li> </ul> </div> <script type="text/javascript"> var fader = new Hongru.fader.init('fader',{ id:'fader' }); </script> </body> 
+</html>
